@@ -45,7 +45,7 @@
                     <div class="top-header-content-right">
                         <div class="top-header-content-phones">
                             <div class="top-header-icon-phone">
-                                <i class="material-icons">phone_iphone</i>
+                                <i class="icon-phones"></i>
                             </div>
                             <button type="button" class="arrow-open-phone" id="open_phone_header">
                                 <i class="material-icons">keyboard_arrow_down</i>
@@ -72,7 +72,7 @@
 
                         <div class="top-header-search">
                            <form action="/" method="post">
-                               <i class="material-icons">search</i>
+                               <i class="icon-search"></i>
                                <input type="text" placeholder="Поиск" >
                            </form>
                         </div>
@@ -352,13 +352,10 @@
 <div class="section gallery">
     <div class="container">
         <div class="section-title-area">
-            <h5 class="section-subtitle">Наши преимущества</h5>
-            <h6 class="section-title">О нас</h6>
+            <h5 class="section-subtitle"></h5>
+            <h6 class="section-title">Галерея</h6>
             <div class="section-desc">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
             </div>
         </div>
@@ -372,7 +369,318 @@
     </div>
 </div>
 
-<footer></footer>
+<div class="section partners">
+    <div class="container">
+        <div class="section-title-area">
+            <h5 class="section-subtitle">Нам доверяют</h5>
+            <h6 class="section-title">Партнеры</h6>
+            <div class="section-desc">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="js-partners">
+        <div class="container">
+            <div class="js-partners-carousel owl-carousel">
+                <?php for ($i = 1; $i < 7; $i++) { ?>
+                    <img src='img/brand/brand<?php echo $i;?>_normal.jpg' data='img/brand/brand<?php echo $i;?>_hover.jpg'>
+                <?php } ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section review">
+    <div class="container">
+        <div class="section-title-area">
+            <h5 class="section-subtitle">о нас говорят</h5>
+            <h6 class="section-title">Отзывы наших клиентов</h6>
+            <div class="section-desc">
+                <p>
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="review-content">
+        <div class="container">
+            <div class="col-md-4">
+                <div class="block-review-option-image">
+                    <div class="logo-review">
+                        <img src="img/review/logo_odindoma.png" alt="" title="">
+                    </div>
+                    <div class="review-image">
+                        <a href="img/review/feed1.jpg">
+                            <img src="img/review/feed1.jpg" alt="" title="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="block-review-option-image">
+                    <div class="logo-review">
+                        <img src="img/review/mannol_auto.png" alt="" title="">
+                    </div>
+                    <div class="review-image">
+                        <a href="img/review/feed1.jpg">
+                            <img src="img/review/feed2.jpg" alt="" title="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 review-option-text">
+                <div class="block-review-option-text">
+                    <div class="image-client-review">
+                        <img src="img/review/client1.png" alt="" title="">
+                    </div>
+                    <div class="client-name-reviw">
+                        <span>Елена Светлова</span>
+                    </div>
+                    <div class="client-review-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="more-services">
+                <a href="" class="button-more-service" id="service-nav">
+                    Больше отзывов
+                    <i class="material-icons">chevron_right</i>
+                    <i class="material-icons">chevron_right</i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section feedback">
+    <div class="container">
+        <div class="section-title-area">
+            <h5 class="section-subtitle">Напишите нам</h5>
+            <h6 class="section-title">Обратная связь</h6>
+        </div>
+    </div>
+    <div class="feedback-content">
+        <div class="container">
+           <div class="form-content">
+               <input type="text" placeholder="Ваше имя*">
+               <input type="text" placeholder="Ваш E-mail*">
+               <textarea placeholder="Оставьте Ваше сообщение">
+               </textarea>
+               <button type="button">Отправить</button>
+           </div>
+        </div>
+    </div>
+</div>
+
+<div class="section news">
+    <div class="container">
+        <div class="section-title-area">
+            <h5 class="section-subtitle">узнайте больше</h5>
+            <h6 class="section-title">Новости и статьи</h6>
+        </div>
+    </div>
+    <div class="news-content">
+        <div class="container">
+            <div class="new-post">
+                <div class="col-md-3">
+                    <img src="img/blog_img3.jpg" alt="" title="">
+                </div>
+                <div class="col-md-9">
+                    <div class="title-post">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="content-post">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint ...
+                        </p>
+                    </div>
+                    <div class="footer-post">
+                        <div class="date-post">
+                            <p>
+                                12 ноября 2017
+                            </p>
+
+                        </div>
+                        <div class="more-post-link">
+                            <a href="">
+                                Читать дальше
+                                <i class="material-icons">chevron_right</i>
+                                <i class="material-icons">chevron_right</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="new-post">
+                <div class="col-md-3">
+                    <img src="img/blog_img3.jpg" alt="" title="">
+                </div>
+                <div class="col-md-9">
+                    <div class="title-post">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="content-post">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint ...
+                        </p>
+                    </div>
+                    <div class="footer-post">
+                        <div class="date-post">
+                            <p>
+                                12 ноября 2017
+                            </p>
+
+                        </div>
+                        <div class="more-post-link">
+                            <a href="">
+                                Читать дальше
+                                <i class="material-icons">chevron_right</i>
+                                <i class="material-icons">chevron_right</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-more-news">
+                <a href="">читать больше</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section subscribe">
+    <div class="container">
+       <p class="subscribe-top-text">
+           Оставайтесь в курсе свежих новостей и акций - подпишитесь на новостной дайжест и будьте первыми!
+       </p>
+        <div class="form-subsribe">
+            <input type="text" placeholder="Ваш E-mail *">
+            <button type="button">Подписаться</button>
+        </div>
+        <p class="subscribe-bottom-text">
+            Указанная информация является конфиденциальной и не подлежит передаче третьим лицам.
+            Вы можете отписаться от новостной рассылки, использовав ссылку, указанную в письме.
+        </p>
+
+    </div>
+</div>
+
+<div class="optimize-seo_text">
+    <div class="container">
+        asdsad
+        asdasd
+        asd
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="col-md-3">
+            <div id="map_footer"></div>
+        </div>
+        <div class="col-md-3">
+       <span class="footer-title-block">
+           Разделы сайта
+       </span>
+            <ul class="footer-nav">
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Товары</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+       <span class="footer-title-block">
+           Контакты
+       </span>
+            <div class="footer-contacts">
+                <p>
+                    <i class="material-icons">place</i>
+                    <span>
+                    г. Днепр, улица Европейская, 4
+                </span>
+                </p>
+                <p>
+                    <i class="material-icons">smartphone</i>
+                    <a href="tel:: +692626">(097) 832 33 44</a>
+                    <a href="tel:: +692626">(097) 832 33 44</a>
+                    <a href="tel:: +692626">(097) 832 33 44</a>
+                </p>
+                <p>
+                    <i class="material-icons">email</i>
+                    <span>
+                    support@youremail.com
+                </span>
+                </p>
+                <p>
+                    <i class="material-icons">email</i>
+                    <span>
+                    support_skype
+                </span>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+       <span class="footer-title-block">
+           Следите за нами
+       </span>
+            <ul class="footer-social-link">
+                <li>
+                    <a href="">
+                        <img src="img/social/soc_fb_1.png" data="img/social/soc_fb_2.png" alt="" title="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/social/soc_vk_1.png" data="img/social/soc_vk_2.png" alt="" title="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/social/soc_youtube_1.png" data="img/social/soc_youtube_2.png" alt="" title="">
+                    </a>
+                </li>
+            </ul>
+            <span class="footer-title-block">
+           Подписаться на новости
+       </span>
+            <div class="form-subsribe-footer">
+                <input type="text" placeholder="E-mail адрес">
+                <button type="button">Готово</button>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright">
+    <div class="container">
+        <div class="copyright-company">
+            <p>
+                Все права защищены © 2017
+            </p>
+        </div>
+        <div class="developer-company_Barakial">
+            <a href="http://lnd.ecoms.biz">
+                Разработка и поддержка
+                <img src="img/logo_webpr.png" alt="WebPR" title="WebPR">
+            </a>
+        </div>
+    </div>
+</div>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/magnific-popup.css">
 <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -387,5 +695,24 @@
 <script type="text/javascript" src="js/plugin/slick.min.js"></script>
 <script type="text/javascript" src="js/plugin/jquery.maskedinput.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK2Rbh3nnU8hXp7Ov9ps1TOGwxsRSxnI8&callback=initMap" type="text/javascript"></script>
+<script type="text/javascript">
+    var map;
+    var myLatLng = {lat: 48.465959, lng: 35.04817};
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map_footer'), {
+            center: myLatLng,
+            zoom: 17
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            labelContent: "labelContent",
+            title: 'Мы тут =)'
+        });
+    }
+</script>
 </body>
 </html>
