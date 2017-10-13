@@ -98,7 +98,7 @@ $(document).ready(function () {
                 margin: 20
         }*/
     }
-});
+    });
 });
 
 $('.js-partners-carousel img, .footer-social-link li a img').hover(function() {
@@ -122,3 +122,5 @@ $('.js-partners-carousel img, .footer-social-link li a img').hover(function() {
     this.src = this.getAttribute('data-src');
     clearInterval(this.timer);
 });
+
+$(".phone-mask").mask("+38(099) 999-9999");

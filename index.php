@@ -67,7 +67,7 @@
                         </div>
 
                         <div class="top-header-callback-search">
-                            <button type="button">Обратный звонок</button>
+                            <button type="button" data-toggle="modal" data-target="#modal_callback">Обратный звонок</button>
                         </div>
 
                         <div class="top-header-search">
@@ -157,7 +157,7 @@
             </p>
             <div class="group-button-banner">
                 <a href="#" class="left-button-banner">Подробнее</a>
-                <a href="#" class="right-button-banner">Оставить заявку</a>
+                <a href="#" class="right-button-banner" data-toggle="modal" data-target="#modal_callback">Оставить заявку</a>
             </div>
         </div>
     </div>
@@ -681,6 +681,52 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade modal-callback" id="modal_callback" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="left-modal-block-image">
+                    <img src="img/modal_call_back_bg_left.jpg" alt="" title="">
+                </div>
+                <div class="right-modal-form">
+                    <button type="button" class="close-moda-callback" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">close</i>
+                        <span>Закрыть</span>
+                    </button>
+                    <h4 class="title-form-modal">
+                        Получите бесплатную
+                        консультацию
+                    </h4>
+                    <p class="info-form-top">
+                        Оставьте свои контактные данные, чтобы мы
+                        смогли связаться с Вами в удобное для Вас время
+                    </p>
+
+                    <div class="form-callback">
+                        <input type="text" placeholder="Представьтесь, пожалуйста">
+                        <input type="text" class="phone-mask" placeholder="Номер телефона">
+                        <i class="material-icons">keyboard_arrow_down</i>
+                        <select>
+                            <option>Удобное время для звонка</option>
+                            <option>12:00</option>
+                            <option>13:00</option>
+                            <option>14:00</option>
+                            <option>15:00</option>
+                        </select>
+                        <button type="button">Отправить заявку</button>
+                        <p class="info-form-bottom">
+                            Информация является конфедициальной и не подлежит передаче третьим
+                            лицам.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/magnific-popup.css">
 <link rel="stylesheet" href="css/owl.carousel.min.css">
